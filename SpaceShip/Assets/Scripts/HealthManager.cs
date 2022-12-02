@@ -7,6 +7,8 @@ public class HealthManager : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
     public HealthBar healthBar;
+    public GameObject gameOver;
+    public GameObject enemyStartLocation;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,8 @@ public class HealthManager : MonoBehaviour
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
+            gameOver.SetActive(true);
+            enemyStartLocation.SetActive(false);
         }
     }
 }
