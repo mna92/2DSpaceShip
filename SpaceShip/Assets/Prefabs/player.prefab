@@ -133,8 +133,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  xSpeed: 0.01
-  ySpeed: 0.01
+  xSpeed: 0.03
+  ySpeed: 0.03
   bullet: {fileID: 4095782927071820484, guid: b1922c4ce0fb9e844b32500604c18488, type: 3}
   bulletLocation: {fileID: 631735965}
 --- !u!50 &-15195072618136708
